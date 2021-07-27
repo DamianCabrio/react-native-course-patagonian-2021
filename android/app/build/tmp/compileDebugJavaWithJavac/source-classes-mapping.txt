@@ -1,0 +1,14 @@
+com/cursornpatagonian/BuildConfig.java
+ com.cursornpatagonian.BuildConfig
+com/cursornpatagonian/ReactNativeFlipper.java
+ com.cursornpatagonian.ReactNativeFlipper
+ com.cursornpatagonian.ReactNativeFlipper$1
+ com.cursornpatagonian.ReactNativeFlipper$2
+ com.cursornpatagonian.ReactNativeFlipper$2$1
+com/cursornpatagonian/MainActivity.java
+ com.cursornpatagonian.MainActivity
+com/cursornpatagonian/MainApplication.java
+ com.cursornpatagonian.MainApplication
+ com.cursornpatagonian.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
