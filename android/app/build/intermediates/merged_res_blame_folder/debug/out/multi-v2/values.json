@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Cosas\\Estudios\\React Native\\Proyectos\\cursornpatagonian\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\Cosas\\Estudios\\React Native\\react-native-course-patagonian-2021\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
-                {
-                    "source": "D:\\Cosas\\Estudios\\React Native\\Proyectos\\cursornpatagonian\\android\\app\\build\\generated\\res\\resValues\\debug\\values\\gradleResValues.xml",
-                    "from": {
-                        "startLines": "6,8",
-                        "startColumns": "4,4",
-                        "startOffsets": "161,269",
-                        "endColumns": "63,68",
-                        "endOffsets": "220,333"
-                    },
-                    "to": {
-                        "startLines": "262,263",
-                        "startColumns": "4,4",
-                        "startOffsets": "16930,16994",
-                        "endColumns": "63,68",
-                        "endOffsets": "16989,17058"
-                    }
-                },
                 {
                     "source": "C:\\Users\\Damián\\.gradle\\caches\\transforms-2\\files-2.1\\d67cd79abd1ca209502f51c69d23182b\\core-1.1.0\\res\\values\\values.xml",
                     "from": {
@@ -57,6 +40,23 @@
                     }
                 },
                 {
+                    "source": "D:\\Cosas\\Estudios\\React Native\\react-native-course-patagonian-2021\\android\\app\\build\\generated\\res\\resValues\\debug\\values\\gradleResValues.xml",
+                    "from": {
+                        "startLines": "6,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "161,269",
+                        "endColumns": "63,68",
+                        "endOffsets": "220,333"
+                    },
+                    "to": {
+                        "startLines": "262,263",
+                        "startColumns": "4,4",
+                        "startOffsets": "16930,16994",
+                        "endColumns": "63,68",
+                        "endOffsets": "16989,17058"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Damián\\.gradle\\caches\\transforms-2\\files-2.1\\8850ed829d25245e8497182323bc73d2\\jetified-drawee-2.2.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,141",
@@ -73,23 +73,6 @@
                         "endLines": "2913,3333",
                         "endColumns": "22,22",
                         "endOffsets": "184768,204872"
-                    }
-                },
-                {
-                    "source": "D:\\Cosas\\Estudios\\React Native\\Proyectos\\cursornpatagonian\\android\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "54",
-                        "endOffsets": "66"
-                    },
-                    "to": {
-                        "startLines": "293",
-                        "startColumns": "4",
-                        "startOffsets": "19072",
-                        "endColumns": "54",
-                        "endOffsets": "19122"
                     }
                 },
                 {
@@ -112,14 +95,31 @@
                     }
                 },
                 {
-                    "source": "D:\\Cosas\\Estudios\\React Native\\Proyectos\\cursornpatagonian\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "D:\\Cosas\\Estudios\\React Native\\react-native-course-patagonian-2021\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "54",
+                        "endOffsets": "67"
+                    },
+                    "to": {
+                        "startLines": "293",
+                        "startColumns": "4",
+                        "startOffsets": "19072",
+                        "endColumns": "54",
+                        "endOffsets": "19122"
+                    }
+                },
+                {
+                    "source": "D:\\Cosas\\Estudios\\React Native\\react-native-course-patagonian-2021\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
-                        "startOffsets": "54",
+                        "startOffsets": "57",
                         "endLines": "6",
                         "endColumns": "12",
-                        "endOffsets": "234"
+                        "endOffsets": "240"
                     },
                     "to": {
                         "startLines": "363",

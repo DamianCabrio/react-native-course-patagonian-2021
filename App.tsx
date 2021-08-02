@@ -1,46 +1,39 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * Generated with the TypeScript template
- * https://github.com/react-native-community/react-native-template-typescript
- *
- * @format
- */
+import React, { useState } from 'react';
+import { Image, StyleSheet, Text, View } from 'react-native';
 
-import React from 'react';
-import { Alert, Image, StyleSheet, Text, View } from 'react-native';
-
-import { DefaultButton } from './src/components';
+import { DefaultButton, DefaultModal } from './src/components';
 
 import { colors } from './src/utils/theme';
-import { DEVICE_HEIGHT, DEVICE_WIDTH } from './src/utils/dimensions';
+import { DEVICE_WIDTH } from './src/utils/dimensions';
 
-const showAlert = () => {
-  Alert.alert('Hola!');
-  console.log('Device height -> ', DEVICE_HEIGHT);
-  console.log('Device width -> ', DEVICE_WIDTH);
-};
+// const showAlert = () => {
+//   Alert.alert('Hola!');
+// };
+
+//TODO: Crear un componente custom con el modal
 
 const App = () => {
+  const [isModalVisible, setModalVisible] = useState(false);
+
+  const showModal = () => {
+    setModalVisible(true);
+  };
+
+  const hideModal = () => {
+    setModalVisible(false);
+  };
+
   return (
     <View style={styles.mainContainer}>
-      <Text style={styles.title}>Hola</Text>
+      <Text style={styles.title}>Título</Text>
       <Text>Subtitulo</Text>
       <Image
         resizeMode="contain"
         source={{ uri: 'https://reactnative.dev/img/tiny_logo.png' }}
         style={styles.image}
       />
-      {/** This is a comment */}
-      {/**<Button title="Hola" onPress={showAlert} />**/}
-      <DefaultButton
-        //additionalStyle={styles.button}
-        color={colors.mainOrange}
-        onPress={showAlert}
-        text="Boton"
-        textSize={24}
-      />
+      <DefaultButton onPress={showModal} text="Mostrar Modal" variant="primary" />
+      <DefaultModal isModalVisible={isModalVisible} hideModal={hideModal} text="Texto"></DefaultModal>
     </View>
   );
 };
@@ -61,9 +54,9 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   image: {
-    minHeight: 'auto',
+    aspectRatio: 1,
+    minHeight: 100,
     width: DEVICE_WIDTH * 0.5,
-    aspectRatio: 16 / 9,
   },
   button: {
     backgroundColor: 'green',
